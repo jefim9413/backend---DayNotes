@@ -11,7 +11,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [React](https://reactjs.org)
+- [Node Js](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/pt-br)
 - [JavaScript](https://www.javascript.com/)
 
