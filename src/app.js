@@ -16,6 +16,6 @@ app.use(routes);
 
 
 //SERVIDOR 
-app.listen("backend-day-notes-aztuxon40-jefim9413.vercel.app",function() {
+app.listen("backend-day-notes.vercel.app",function() {
     console.log("server running !!");
 });
