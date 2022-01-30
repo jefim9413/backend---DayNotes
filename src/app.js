@@ -12,6 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 //ROTAS 
+const port = process.env.PORT || 8877 
 app.use(routes);
 app.get('/', (req,res) () => { 
     res.json({
@@ -19,7 +20,7 @@ app.get('/', (req,res) () => {
     })
 })
 
-const port = process.env.PORT|| 8877 
+
 
 
 //SERVIDOR 
