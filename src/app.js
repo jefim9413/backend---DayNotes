@@ -14,7 +14,7 @@ app.use(express.json());
 //ROTAS 
 const port = process.env.PORT || 8877 
 app.use(routes);
-app.get('/', (req,res) () => { 
+app.get('/', (req,res) => { 
     res.json({
         msg: 'jjjjs'
     })
