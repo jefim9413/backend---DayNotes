@@ -13,11 +13,16 @@ app.use(express.json());
 
 //ROTAS 
 app.use(routes);
+app.get('/', (re1,res) () => { 
+    res.json({
+        msg: 'jjjjs'
+    })
+})
 
 const port = process.env.PORT|| 8877 
 
 
 //SERVIDOR 
 app.listen(port,()=> {
-    console.log("server running !!");
+    console.log("server running !!" + port );
 });
