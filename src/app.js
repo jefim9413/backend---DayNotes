@@ -13,7 +13,7 @@ app.use(express.json());
 
 //ROTAS 
 app.use(routes);
-app.get('/', (re1,res) () => { 
+app.get('/', (req,res) () => { 
     res.json({
         msg: 'jjjjs'
     })
