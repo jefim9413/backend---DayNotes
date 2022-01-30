@@ -16,6 +16,6 @@ app.use(routes);
 
 
 //SERVIDOR 
-app.listen("backend-day-notes.vercel.app",function() {
+app.listen("3333",function() {
     console.log("server running !!");
 });
