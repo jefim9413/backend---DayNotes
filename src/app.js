@@ -14,8 +14,10 @@ app.use(express.json());
 //ROTAS 
 app.use(routes);
 
+const port = process.env.PORT|| 8877 
+
 
 //SERVIDOR 
-app.listen("3333",function() {
+app.listen(port,()=> {
     console.log("server running !!");
 });
