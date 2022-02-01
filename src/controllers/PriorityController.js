@@ -5,7 +5,7 @@ module.exports = {
     async rend(req,res){
         const priority = req.query;
         
-        const priorityNotes = await Annotations.find({priority :priority});
+        const priorityNotes = await Annotations.find({priority:true});
         return res.json(priorityNotes);
     },
     async update(req,res){
