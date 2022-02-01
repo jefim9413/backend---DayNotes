@@ -7,7 +7,7 @@ module.exports = {
         
         const priorityNotes = await Annotations.find(priority1);
         
-        if(priorityNotes){
+        if(priorityNotes === false){
             return res.json(priorityNotes);
         }
         else{
