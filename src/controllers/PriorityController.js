@@ -3,9 +3,9 @@ const Annotations  = require('../models/annotationsData');
 module.exports = {
 
     async rend(req,res){
-        const priority = req.query;
+        const priority1 = req.query;
         
-        const priorityNotes = await Annotations.find({priority:true});
+        const priorityNotes = await Annotations.find({priority:priority1});
         return res.json(priorityNotes);
     },
     async update(req,res){
