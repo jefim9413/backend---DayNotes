@@ -7,7 +7,7 @@ module.exports = {
         const priority = req.query;
         
         const priorityNotes = await Annotations.find(priority);
-       
+       console.log(priorityNotes)
         return res.json(priorityNotes);
     },
     async update(req,res){
